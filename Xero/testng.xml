@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/ekpoo/Desktop/TekArch/GIT/Xero">
+
+        <classes>
+            <class name ="Xero">
+                <parameter name="driverName" value="firefox"></parameter>
+                <methods>
+<!--                    <include name="TC1_XeroLogin" />-->
+<!--                    <include name="TC2_loginError"/>-->
+<!--                    <include name="TC3_ForgotPwd"/>-->
+<!--                    <include name="TC4_signUp"/>-->
+<!--                    <include name="TC5_signUpError"/>-->
+<!--                    <include name="TC6_clickLinks"/>-->
+<!--                    <include name="TC7_clickAccLink"/>-->
+<!--                    <include name="TC8_TestAllTabs"/>-->
+<!--                    <include name="TC9_logOut"/>-->
+<!--                    <include name="TC10_uploadImage"/>-->
+<!--                    <include name="TC11_addOrganisationTrail"/>-->
+<!--                    <include name="TC12_addOrganisationPaid"/>-->
+                    <include name="TC1_XeroLogin"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
